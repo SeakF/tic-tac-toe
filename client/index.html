@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="plansza">
+        <div onclick="updateBlock(0)" id="f0" class="block"></div>
+        <div onclick="updateBlock(1)" id="f1" class="block"></div>
+        <div onclick="updateBlock(2)" id="f2" class="block"></div>
+
+        <div onclick="updateBlock(3)" id="f3" class="block"></div>
+        <div onclick="updateBlock(4)" id="f4" class="block"></div>
+        <div onclick="updateBlock(5)" id="f5" class="block"></div>
+
+        <div onclick="updateBlock(6)" id="f6" class="block"></div>
+        <div onclick="updateBlock(7)" id="f7" class="block"></div>
+        <div onclick="updateBlock(8)" id="f8" class="block"></div>
+        <div id="plate">
+            <div id="plateText">
+                Winner:
+                <div id="plateWinner">cross</div>
+                <button onclick="reset()">reset</button>
+            </div>
+        </div>
+    </div>
+    <div id="turaCont">
+        <div id="tura"></div>
+        recent turn
+    </div>
+</body>
+</html>
